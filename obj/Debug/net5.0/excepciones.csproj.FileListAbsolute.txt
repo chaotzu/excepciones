@@ -1,0 +1,15 @@
+/Users/chaos/Documents/Desarrollo/net/excepciones/bin/Debug/net5.0/excepciones.deps.json
+/Users/chaos/Documents/Desarrollo/net/excepciones/bin/Debug/net5.0/excepciones.runtimeconfig.json
+/Users/chaos/Documents/Desarrollo/net/excepciones/bin/Debug/net5.0/excepciones.runtimeconfig.dev.json
+/Users/chaos/Documents/Desarrollo/net/excepciones/bin/Debug/net5.0/excepciones.dll
+/Users/chaos/Documents/Desarrollo/net/excepciones/bin/Debug/net5.0/ref/excepciones.dll
+/Users/chaos/Documents/Desarrollo/net/excepciones/bin/Debug/net5.0/excepciones.pdb
+/Users/chaos/Documents/Desarrollo/net/excepciones/obj/Debug/net5.0/excepciones.csprojAssemblyReference.cache
+/Users/chaos/Documents/Desarrollo/net/excepciones/obj/Debug/net5.0/excepciones.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chaos/Documents/Desarrollo/net/excepciones/obj/Debug/net5.0/excepciones.AssemblyInfoInputs.cache
+/Users/chaos/Documents/Desarrollo/net/excepciones/obj/Debug/net5.0/excepciones.AssemblyInfo.cs
+/Users/chaos/Documents/Desarrollo/net/excepciones/obj/Debug/net5.0/excepciones.csproj.CoreCompileInputs.cache
+/Users/chaos/Documents/Desarrollo/net/excepciones/obj/Debug/net5.0/excepciones.dll
+/Users/chaos/Documents/Desarrollo/net/excepciones/obj/Debug/net5.0/ref/excepciones.dll
+/Users/chaos/Documents/Desarrollo/net/excepciones/obj/Debug/net5.0/excepciones.pdb
+/Users/chaos/Documents/Desarrollo/net/excepciones/obj/Debug/net5.0/excepciones.genruntimeconfig.cache
