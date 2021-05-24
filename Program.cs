@@ -57,7 +57,7 @@ namespace excepciones
     */
    
    
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             int a=3, b = 1, c = 0;
             try{
@@ -68,7 +68,7 @@ namespace excepciones
             }
             finally{
                 Console.WriteLine(a+"/"+b+"="+c);
-            }            
+            }        
         }
         static int CalcularDivision(int numerador, int denominador){
             if(denominador == 0)
@@ -76,7 +76,37 @@ namespace excepciones
             else{
                 return (numerador / denominador);
             }
+        }*/
+
+        static void Main(string[] args)
+        {
+            int edad;
+            Console.WriteLine("Control de personas que recibirán vacuna COVID (Ronda de aplicación 40 a 50 años)");
+            Console.WriteLine("Introduce tu edad para saber si puedes aplicar la vacuna en esta ronda");
+            try{
+                edad = Convert.ToInt32(Console.ReadLine());
+                if(!(edad >= 40 && edad <= 50))
+                    throw new FiltroVacunadosException("Edad fuera de rango, no puede recibir la vacuna");
+                else{
+                    Console.WriteLine("Si puede recibir la vacuna");
+                }
+            }
+            catch(FiltroVacunadosException fve){
+                Console.WriteLine(fve.Message);
+            }
+            catch(FormatException fe){
+                Console.WriteLine("Excepción, formato introducido no válido: " + fe.Message);                
+            }
+            catch(Exception e){
+                Console.WriteLine("Excepción general: " + e.Message);
+            }
+            finally{
+                Console.WriteLine("Gracias por utilizar el sistema de validación");                
+            }
+            
         }
+
+
         
 
     }
